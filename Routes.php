@@ -1,7 +1,7 @@
 <?php
     
     Route::set('about-us',function(){
-        echo 'about- us';
+        AboutUsController::createView();
     });
 
     Route::set('contact-us',function(){

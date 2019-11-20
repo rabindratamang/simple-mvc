@@ -1,11 +1,16 @@
 <?php
     
+    Route::set('index.php',function(){
+        IndexController::createView('Index');
+    });
+
     Route::set('about-us',function(){
-        AboutUsController::createView();
+        AboutUsController::createView('AboutUs');
+        AboutUsController::test();
     });
 
     Route::set('contact-us',function(){
-        echo 'contact-us';
+        ContactUsController::createView('ContactUs');
     })
 
 ?>

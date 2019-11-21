@@ -1,9 +1,8 @@
 <?php
 
-class BaseController{
-    public static function CreateView()
-    {
-        echo 'view created';
+class BaseController extends DB{
+    public static function CreateView($viewName){
+        require_once("./views/$viewName.php");
     }
 }
 ?>

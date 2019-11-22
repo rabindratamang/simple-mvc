@@ -1,5 +1,5 @@
 # SIMPLE MVC 
-MVC pattern implementation using core PHP.
+A simple MVC pattern implementation using core PHP.
 
 ## Contributing
 1. Fork it!
